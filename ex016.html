@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 16</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas - áudios</h1>
+    <a href="ex015.html">Exercício 15</a>
+    <a href="ex017.html">Exercício 17</a>
+    <br>
+    <p>Vamos aprender a reproduzir audio em html 5</p>
+    <audio src="midia/teste1.m4a" controls autoplay></audio>
+    <p>Outra forma</p>
+    <!--O ideal é disponibilizar os formatos abaixo, são os mais compatíveis.
+    Essa opção é para buscar aquela que se adeque ao navegador e possa reproduzir 
+    o áudio-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/teste1.m4a" type="audio/m4a">
+        <source src="midia/teste1.mp3" type="audio/mpeg">
+        <source src="midia/teste1.ogg" type="audio/ogg">
+        <source src="midia/teste1.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio</p>
+        <a href="midia/teste1.m4a">Clique aqui para baixar o áudio</a>
+    </audio>
+</body>
+</html>
