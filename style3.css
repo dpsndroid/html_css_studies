@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*
-id em html é # em css
-class em html é . e css
+id em html é # em css (só pode 1 elemento)
+class em html é . e css (pode vários elementos)
 */
 body {
     background-color: rgb(229, 252, 193);
@@ -15,7 +15,6 @@ h1 {
 }
 
 h1#principal {
-    background-color: rgb(176, 211, 121);
     color: white;
 }
 
@@ -27,4 +26,20 @@ h2 {
 p {
     text-align: justify;
     text-indent: 30px;
+}
+
+.basico {
+    color: #0d840d;
+}
+
+.intermediario{
+    color: #eeee0e;
+}
+
+.avancado {
+    color: #bd1d1d;
+}
+
+.destaque {
+    background-color: #5ff9dd;
 }
